@@ -1,5 +1,5 @@
 import unittest
-import /../src/calculator as calculator
+import calculator
 
 class TestSumma(unittest.TestCase):
     #test sum_numbers
