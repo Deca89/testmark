@@ -66,7 +66,3 @@ class TestSumma(unittest.TestCase):
     def test_divide_numbers_takes_rises_error_if_parameters_are_not_numbers(self):
         with self.assertRaises(TypeError):
             calculator.divide_numbers(1, "a")
-
-
-
-if __name__ == '__main__': unittest.main()
